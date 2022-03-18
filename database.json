@@ -19,6 +19,11 @@
       "name": "Simon",
       "email": "simon@simon.com",
       "id": 4
+    },
+    {
+      "name": "you",
+      "email": "you@you.com",
+      "id": 5
     }
   ],
   "recipes": [
@@ -176,7 +181,7 @@
     {
       "id": 7,
       "recipeId": 2,
-      "step": "crumble up some oreos in that ish and enjoy.",
+      "step": "crumble up some oreos in that dish and enjoy.",
       "minutes": 0.5,
       "stepNumber": 3
     },
@@ -312,7 +317,7 @@
   ],
   "forkedSteps": [
     {
-      "step": "dont tell mom",
+      "step": "dont burn your mouth",
       "stepNumber": 4,
       "recipeId": 1,
       "minutes": 0.4,
