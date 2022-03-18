@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Randall",
+      "email": "randallthomasmusic@gmail.com"
+    },
+    {
+      "name": "Randall",
+      "email": "randall@randall.com",
+      "id": 2
+    },
+    {
+      "name": "randall",
+      "email": "me@me.com",
+      "id": 3
+    },
+    {
+      "name": "Simon",
+      "email": "simon@simon.com",
+      "id": 4
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Deviled Eggs",
+      "memory": "Every Easter - I always thought it was funny we only ever ate deviled eggs on a Christian holiday...",
+      "photo": "https://www.spendwithpennies.com/wp-content/uploads/2021/11/SWP-U-Classic-Deviled-Eggs-19.jpg",
+      "userId": 1
+    },
+    {
+      "name": "Cream of Wheat",
+      "memory": "Being a Fat Kid, Oreos in anything was pretty good, and since cream of wheat pretty much only tastes like what you eat it with, it was like eating Oreo soup, which is music to a fat kids ears.!?....",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cream_of_Wheat.jpg/220px-Cream_of_Wheat.jpg",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Charlie's Energy Balls",
+      "memory": "I watch It's Always Sunny with my wife a lot and on one episode, Charlie explains how $5 would last him a week in food and explained how to make Charlie's Energy Balls which became the inspiration for my wife to make her own which inspired me to make my own. So here is the recipe...",
+      "photo": "https://i.imgur.com/Ph5nETC.jpeg",
+      "userId": 4,
+      "id": 3
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Eggs",
+      "amount": "Half a dozen",
+      "recipeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Relish",
+      "amount": "Half a cup",
+      "recipeId": 1
+    },
+    {
+      "id": 7,
+      "name": "Horseradish",
+      "amount": "1 tsp",
+      "recipeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Mayo",
+      "amount": "3 tbsp",
+      "recipeId": 1
+    },
+    {
+      "id": 4,
+      "name": "Cream of Wheat",
+      "amount": "1 package",
+      "recipeId": 2
+    },
+    {
+      "id": 5,
+      "name": "milk",
+      "amount": "1 cup",
+      "recipeId": 2
+    },
+    {
+      "id": 6,
+      "name": "Oreos",
+      "amount": "Half a sleeve",
+      "recipeId": 2
+    },
+    {
+      "recipeId": 3,
+      "name": "Honey",
+      "amount": "2 tbs",
+      "id": 8
+    },
+    {
+      "recipeId": 3,
+      "name": "Peanut or almond butter",
+      "amount": "3/4 cup",
+      "id": 9
+    },
+    {
+      "recipeId": 3,
+      "name": "Chocolate chips",
+      "amount": "1/2 cup",
+      "id": 10
+    },
+    {
+      "recipeId": 3,
+      "name": "Oats",
+      "amount": "1 cup",
+      "id": 11
+    },
+    {
+      "recipeId": 3,
+      "name": "Chia seeds",
+      "amount": "1 tbs",
+      "id": 12
+    },
+    {
+      "recipeId": 3,
+      "name": "Walnuts",
+      "amount": "1/2 cup",
+      "id": 13
+    },
+    {
+      "recipeId": 3,
+      "name": "Hemp Seed Oil",
+      "amount": "1/2 tbs",
+      "id": 14
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "recipeId": 1,
+      "step": "Boil eggs",
+      "minutes": 10,
+      "stepNumber": 1
+    },
+    {
+      "id": 2,
+      "recipeId": 1,
+      "step": "mix horseradish and mayo",
+      "minutes": 1,
+      "stepNumber": 2
+    },
+    {
+      "id": 3,
+      "recipeId": 1,
+      "step": "Peel and gut eggs",
+      "minutes": 10,
+      "stepNumber": 3
+    },
+    {
+      "id": 4,
+      "recipeId": 2,
+      "minutes": 1,
+      "stepNumber": 1,
+      "step": "scrumble up some cream of wheat and milk"
+    },
+    {
+      "id": 5,
+      "stepNumber": 2,
+      "recipeId": 2,
+      "minutes": 2,
+      "step": "place in microwave"
+    },
+    {
+      "id": 6,
+      "stepNumber": 3,
+      "recipeId": 2,
+      "minutes": 3,
+      "step": "let cool"
+    },
+    {
+      "id": 7,
+      "recipeId": 2,
+      "step": "crumble up some oreos in that ish and enjoy.",
+      "minutes": 0.5,
+      "stepNumber": 3
+    },
+    {
+      "recipeId": 3,
+      "step": "Crunch down those walnuts",
+      "stepNumber": 1,
+      "minutes": 1,
+      "id": 8
+    },
+    {
+      "recipeId": 3,
+      "step": "Add peanut/almond butter or oats as needed",
+      "stepNumber": 3,
+      "minutes": 1,
+      "id": 9
+    },
+    {
+      "recipeId": 3,
+      "step": "Scrumble everything up together real good",
+      "stepNumber": 2,
+      "minutes": 3,
+      "id": 10
+    }
+  ],
+  "likes": [
+    {
+      "recipeId": 1,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "recipeId": 2,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "recipeId": 1,
+      "userId": 4,
+      "id": 7
+    },
+    {
+      "recipeId": 3,
+      "userId": 4,
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "comment": "Woah look at that pasta",
+      "recipeId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "comment": "Gnar gnosh my dude",
+      "recipeId": 1
+    },
+    {
+      "userId": 4,
+      "comment": "Devilishly delicious my boy, tip top pip pip and hooray for eggie eggs",
+      "recipeId": 1,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "comment": "Touch your toes!",
+      "recipeId": 2,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "comment": "Now twirly twirl",
+      "recipeId": 2,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "comment": "Now twirly twirl",
+      "recipeId": 2,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "comment": "Make it go!",
+      "recipeId": 2,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "comment": "hi",
+      "recipeId": 3,
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "comment": "please update",
+      "recipeId": 1,
+      "id": 15
+    }
+  ],
+  "forkedRecipes": [
+    {
+      "forkedFromId": 2,
+      "name": "Cream of Wheat (Forked)",
+      "memory": "Love it! Here's my version...",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cream_of_Wheat.jpg/220px-Cream_of_Wheat.jpg",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "forkedIngredients": [
+    {
+      "id": 4,
+      "name": "Cream of Wheat",
+      "amount": "1 package",
+      "recipeId": 1
+    },
+    {
+      "id": 5,
+      "name": "milk",
+      "amount": "1 cup",
+      "recipeId": 1
+    },
+    {
+      "id": 6,
+      "name": "Oreos",
+      "amount": "Half a sleeve",
+      "recipeId": 1
+    }
+  ],
+  "forkedSteps": [
+    {
+      "step": "dont tell mom",
+      "stepNumber": 4,
+      "recipeId": 1,
+      "minutes": 0.4,
+      "id": 1
+    },
+    {
+      "id": 6,
+      "stepNumber": 3,
+      "recipeId": 1,
+      "minutes": 3,
+      "step": "let cool"
+    },
+    {
+      "step": "eeeeeat",
+      "stepNumber": 5,
+      "recipeId": 1,
+      "minutes": 4,
+      "id": 7
+    }
+  ]
+}
