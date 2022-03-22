@@ -349,6 +349,24 @@
       "rating": 5,
       "userId": 9,
       "id": 1
+    },
+    {
+      "recipeId": 3,
+      "rating": 5,
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "recipeId": 1,
+      "rating": 1,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "recipeId": 2,
+      "rating": 1,
+      "userId": 3,
+      "id": 4
     }
   ]
 }
