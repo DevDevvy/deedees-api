@@ -29,15 +29,35 @@
       "name": "rama",
       "email": "rama@rama.com",
       "id": 6
+    },
+    {
+      "name": "da",
+      "email": "da@da.com",
+      "id": 7
+    },
+    {
+      "name": "sa",
+      "email": "sa@sa.com",
+      "id": 8
+    },
+    {
+      "name": "Re",
+      "email": "re@re.com",
+      "id": 9
+    },
+    {
+      "name": "Destiny",
+      "email": "destinylfrith@gmail.com",
+      "id": 10
     }
   ],
   "recipes": [
     {
-      "id": 1,
       "name": "Deviled Eggs",
       "memory": "Every Easter - I always thought it was funny we only ever ate deviled eggs on a Christian holiday...",
       "photo": "https://www.spendwithpennies.com/wp-content/uploads/2021/11/SWP-U-Classic-Deviled-Eggs-19.jpg",
-      "userId": 1
+      "userId": 1,
+      "id": 1
     },
     {
       "name": "Cream of Wheat",
@@ -52,24 +72,38 @@
       "photo": "https://i.imgur.com/Ph5nETC.jpeg",
       "userId": 4,
       "id": 3
+    },
+    {
+      "name": "Twice Baked Loaded Potato",
+      "memory": "These are so good I wish I ate them more. I remember having these growing up only a few times a year usually in the fall it seems...",
+      "photo": "https://www.simplyrecipes.com/thmb/GZwoVSMKQ2tiBKner6bDmCXJPi0=/1600x1067/filters:fill(auto,1)/Twice-Baked-Potatoes-LEAD-1v2-f7918849ddd245c5aecf0ec58fb2b47e.jpg",
+      "userId": 9,
+      "id": 4
+    },
+    {
+      "name": "Chocolate Chip Cookies",
+      "memory": "I learned how to make the best cookies from my mother, the secret is to never skimp on brown sugar and walnuts, and that little bit of nutmeg.",
+      "photo": "https://www.modernhoney.com/wp-content/uploads/2019/01/The-Best-Chocolate-Chip-Cookies-2.jpg",
+      "userId": 4,
+      "id": 5
     }
   ],
   "ingredients": [
     {
       "id": 1,
       "name": "Eggs",
-      "amount": "Half a dozen",
+      "amount": "6",
       "recipeId": 1
     },
     {
       "id": 2,
-      "name": "Relish",
-      "amount": "Half a cup",
+      "name": "Mayo",
+      "amount": "1/4 cup",
       "recipeId": 1
     },
     {
       "id": 7,
-      "name": "Horseradish",
+      "name": "White vinegar",
       "amount": "1 tsp",
       "recipeId": 1
     },
@@ -138,28 +172,148 @@
       "name": "Hemp Seed Oil",
       "amount": "1/2 tbs",
       "id": 14
+    },
+    {
+      "recipeId": 4,
+      "name": "Russet potatoes",
+      "amount": "2",
+      "id": 15
+    },
+    {
+      "recipeId": 4,
+      "name": "Freshly ground black pepper",
+      "amount": "1/2 tsp",
+      "id": 16
+    },
+    {
+      "recipeId": 4,
+      "name": "Shredded cheddar cheese, divided",
+      "amount": "1 cup",
+      "id": 17
+    },
+    {
+      "recipeId": 4,
+      "name": "Unsalted butter, melted",
+      "amount": "2 tbs",
+      "id": 18
+    },
+    {
+      "recipeId": 4,
+      "name": "Kosher salt",
+      "amount": "1 tsp",
+      "id": 19
+    },
+    {
+      "recipeId": 4,
+      "name": "Scallions, thinly sliced, divided",
+      "amount": "1/2 cup",
+      "id": 20
+    },
+    {
+      "recipeId": 4,
+      "name": "½ cup sour cream, plus more for serving",
+      "amount": "1 cup",
+      "id": 21
+    },
+    {
+      "recipeId": 4,
+      "name": "Olive oil",
+      "amount": "2 tsp",
+      "id": 22
+    },
+    {
+      "recipeId": 4,
+      "name": "Bacon, cooked, crumbled",
+      "amount": "2 strips",
+      "id": 23
+    },
+    {
+      "recipeId": 5,
+      "name": "Butter",
+      "amount": "1 cup",
+      "id": 24
+    },
+    {
+      "recipeId": 5,
+      "name": "Bown sugar",
+      "amount": "1 cup",
+      "id": 25
+    },
+    {
+      "recipeId": 5,
+      "name": "Eggs",
+      "amount": "2",
+      "id": 26
+    },
+    {
+      "recipeId": 5,
+      "name": "White sugar",
+      "amount": "1 cup",
+      "id": 27
+    },
+    {
+      "recipeId": 5,
+      "name": "Vanilla extract",
+      "amount": "2 tsp",
+      "id": 28
+    },
+    {
+      "recipeId": 5,
+      "name": "Walnuts",
+      "amount": "1 cup",
+      "id": 29
+    },
+    {
+      "recipeId": 5,
+      "name": "Nutmeg",
+      "amount": "1 pinch",
+      "id": 30
+    },
+    {
+      "recipeId": 5,
+      "name": "Salt",
+      "amount": "1/2 tsp",
+      "id": 31
+    },
+    {
+      "recipeId": 5,
+      "name": "Chocolate chips",
+      "amount": "2 cups",
+      "id": 32
+    },
+    {
+      "recipeId": 5,
+      "name": "Flour",
+      "amount": "3 cups",
+      "id": 33
+    },
+    {
+      "recipeId": 5,
+      "name": "Baking soda",
+      "amount": "1 tsp",
+      "id": 34
     }
   ],
   "steps": [
     {
       "id": 1,
       "recipeId": 1,
-      "step": "Boil eggs",
-      "minutes": 10,
+      "step": "Place eggs in a single layer in a saucepan and cover with enough water that there's 1 1/2 inches of water above the eggs.",
+      "minutes": 1,
       "stepNumber": 1
     },
     {
       "id": 2,
       "recipeId": 1,
-      "step": "mix horseradish and mayo",
-      "minutes": 1,
+      "step": "Heat on high until water begins to boil, then cover, turn the heat to low, and cook for 1 minute. ",
+      "minutes": 15,
       "stepNumber": 2
     },
     {
       "id": 3,
       "recipeId": 1,
-      "step": "Peel and gut eggs",
-      "minutes": 10,
+      "step": "Remove from heat and leave covered for 14 minutes, then rinse under cold water continuously for 1 minute.",
+      "minutes": 15,
       "stepNumber": 3
     },
     {
@@ -210,6 +364,125 @@
       "stepNumber": 2,
       "minutes": 3,
       "id": 10
+    },
+    {
+      "recipeId": 4,
+      "step": "Preheat the oven to 400˚F (200˚C)",
+      "stepNumber": 1,
+      "minutes": 6,
+      "id": 11
+    },
+    {
+      "recipeId": 4,
+      "step": "Transfer potatoes to a cutting board, and cut in half.",
+      "stepNumber": 4,
+      "minutes": 3,
+      "id": 12
+    },
+    {
+      "recipeId": 4,
+      "step": "Place the potatoes on a rimmed baking sheet and bake for 1 hour.",
+      "stepNumber": 3,
+      "minutes": 60,
+      "id": 13
+    },
+    {
+      "recipeId": 4,
+      "step": "Using a spoon, gently scoop out the inside flesh of the potatoes and transfer to a medium bowl. Reserve the skins.",
+      "stepNumber": 5,
+      "minutes": 3,
+      "id": 14
+    },
+    {
+      "recipeId": 4,
+      "step": "Bake for 10 minutes.",
+      "stepNumber": 8,
+      "minutes": 10,
+      "id": 15
+    },
+    {
+      "recipeId": 4,
+      "step": "Rub each potato with 1 teaspoon of oil, and prick the top with a fork",
+      "stepNumber": 2,
+      "minutes": 2,
+      "id": 16
+    },
+    {
+      "recipeId": 4,
+      "step": "Add the sour cream, melted butter, salt, pepper, ½ of the shredded cheese, and ½ of the scallions, and combine with a hand mixer until smooth.",
+      "stepNumber": 6,
+      "minutes": 2,
+      "id": 17
+    },
+    {
+      "recipeId": 4,
+      "step": "Top with sour cream, bacon, and the remaining scallions.",
+      "stepNumber": 10,
+      "minutes": 3,
+      "id": 18
+    },
+    {
+      "recipeId": 4,
+      "step": "Sprinkle the potatoes with remaining cheese, and bake for 5 more minutes, until the cheese is melted.",
+      "stepNumber": 9,
+      "minutes": 7,
+      "id": 19
+    },
+    {
+      "recipeId": 4,
+      "step": "Use a spoon to transfer the potato mixture back into the scooped out potato skins.",
+      "stepNumber": 7,
+      "minutes": 3,
+      "id": 20
+    },
+    {
+      "recipeId": 5,
+      "step": "Preheat oven to 350 degrees F",
+      "stepNumber": 1,
+      "minutes": 6,
+      "id": 21
+    },
+    {
+      "recipeId": 5,
+      "step": "Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.",
+      "stepNumber": 6,
+      "minutes": 10,
+      "id": 22
+    },
+    {
+      "recipeId": 5,
+      "step": "Dissolve baking soda in hot water. Add to batter along with salt and nutmeg.",
+      "stepNumber": 4,
+      "minutes": 1,
+      "id": 23
+    },
+    {
+      "recipeId": 5,
+      "step": "Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.",
+      "stepNumber": 5,
+      "minutes": 2,
+      "id": 24
+    },
+    {
+      "recipeId": 5,
+      "step": "Cream together the butter, white sugar, and brown sugar until smooth.",
+      "stepNumber": 2,
+      "minutes": 2,
+      "id": 25
+    },
+    {
+      "recipeId": 5,
+      "step": "Beat in the eggs one at a time, then stir in the vanilla.",
+      "stepNumber": 7,
+      "minutes": 1,
+      "id": 26
+    },
+    {
+      "recipeId": 5,
+      "step": "Beat in the eggs one at a time, then stir in the vanilla.",
+      "stepNumber": 3,
+      "minutes": 1,
+      "id": 27
     }
   ],
   "likes": [
@@ -219,19 +492,59 @@
       "id": 3
     },
     {
-      "recipeId": 2,
-      "userId": 2,
-      "id": 4
-    },
-    {
       "recipeId": 1,
       "userId": 4,
       "id": 7
     },
     {
+      "recipeId": 2,
+      "userId": 6,
+      "id": 9
+    },
+    {
+      "recipeId": 2,
+      "userId": 8,
+      "id": 10
+    },
+    {
       "recipeId": 3,
-      "userId": 4,
-      "id": 8
+      "userId": 8,
+      "id": 11
+    },
+    {
+      "recipeId": 1,
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "recipeId": 3,
+      "userId": 9,
+      "id": 15
+    },
+    {
+      "recipeId": 5,
+      "userId": 10,
+      "id": 16
+    },
+    {
+      "recipeId": 2,
+      "userId": 1,
+      "id": 22
+    },
+    {
+      "recipeId": 3,
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "recipeId": 5,
+      "userId": 2,
+      "id": 24
+    },
+    {
+      "recipeId": 4,
+      "userId": 2,
+      "id": 25
     }
   ],
   "comments": [
@@ -284,89 +597,153 @@
       "id": 14
     },
     {
-      "userId": 4,
-      "comment": "please update",
+      "userId": 10,
+      "comment": "Love me some deviled eggs mmmmm",
       "recipeId": 1,
-      "id": 15
+      "id": 16
+    },
+    {
+      "userId": 10,
+      "comment": "I love all potatoes shamelessly",
+      "recipeId": 4,
+      "id": 17
+    },
+    {
+      "userId": 4,
+      "comment": "I HAVE THE POWERRR",
+      "recipeId": 3,
+      "id": 18
     }
   ],
   "forkedRecipes": [
-    {
-      "forkedFromId": 2,
-      "name": "Cream of Wheat (Forked)",
-      "memory": "Love it! Here's my version...",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cream_of_Wheat.jpg/220px-Cream_of_Wheat.jpg",
-      "userId": 2,
-      "id": 1
-    }
+    
   ],
   "forkedIngredients": [
-    {
-      "id": 4,
-      "name": "Cream of Wheat",
-      "amount": "1 package",
-      "recipeId": 1
-    },
-    {
-      "id": 5,
-      "name": "milk",
-      "amount": "1 cup",
-      "recipeId": 1
-    },
-    {
-      "id": 6,
-      "name": "Oreos",
-      "amount": "Half a sleeve",
-      "recipeId": 1
-    }
+    
   ],
   "forkedSteps": [
-    {
-      "step": "dont burn your mouth",
-      "stepNumber": 4,
-      "recipeId": 1,
-      "minutes": 0.4,
-      "id": 1
-    },
-    {
-      "id": 6,
-      "stepNumber": 3,
-      "recipeId": 1,
-      "minutes": 3,
-      "step": "let cool"
-    },
-    {
-      "step": "eeeeeat",
-      "stepNumber": 5,
-      "recipeId": 1,
-      "minutes": 4,
-      "id": 7
-    }
+    
   ],
   "rating": [
     {
+      "id": 1,
+      "userId": 2,
       "recipeId": 2,
-      "rating": 5,
+      "rating": 4
+    },
+    {
+      "recipeId": 2,
+      "rating": 3,
       "userId": 9,
-      "id": 1
+      "id": 2
+    },
+    {
+      "recipeId": 2,
+      "rating": 2,
+      "userId": 9,
+      "id": 3
+    },
+    {
+      "recipeId": 3,
+      "rating": 2,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "recipeId": 1,
+      "rating": 2,
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "recipeId": 2,
+      "rating": 3,
+      "userId": 3,
+      "id": 6
+    },
+    {
+      "recipeId": 3,
+      "rating": 3,
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "recipeId": 3,
+      "rating": 2,
+      "userId": 3,
+      "id": 8
     },
     {
       "recipeId": 3,
       "rating": 5,
       "userId": 3,
-      "id": 2
+      "id": 9
+    },
+    {
+      "recipeId": 3,
+      "rating": 3,
+      "userId": 3,
+      "id": 10
+    },
+    {
+      "recipeId": 3,
+      "rating": 3,
+      "userId": 3,
+      "id": 11
+    },
+    {
+      "recipeId": 3,
+      "rating": 3,
+      "userId": 3,
+      "id": 12
+    },
+    {
+      "recipeId": 3,
+      "rating": 2,
+      "userId": 3,
+      "id": 13
+    },
+    {
+      "recipeId": 3,
+      "rating": 3,
+      "userId": 3,
+      "id": 14
+    },
+    {
+      "recipeId": 3,
+      "rating": 3,
+      "userId": 3,
+      "id": 15
     },
     {
       "recipeId": 1,
-      "rating": 1,
-      "userId": 3,
-      "id": 3
+      "rating": 2,
+      "userId": 9,
+      "id": 16
+    },
+    {
+      "recipeId": 3,
+      "rating": 5,
+      "userId": 9,
+      "id": 17
+    },
+    {
+      "recipeId": 1,
+      "rating": 5,
+      "userId": 10,
+      "id": 18
     },
     {
       "recipeId": 2,
-      "rating": 1,
-      "userId": 3,
-      "id": 4
+      "rating": 3,
+      "userId": 1,
+      "id": 19
+    },
+    {
+      "recipeId": 1,
+      "rating": 3,
+      "userId": 4,
+      "id": 20
     }
   ]
 }
